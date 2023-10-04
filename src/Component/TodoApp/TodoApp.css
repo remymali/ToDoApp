@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    background-color: #056679;
+    font-family: sans-serif;
+}
+.todo-container{
+   
+    height: 50%;
+    width: 30%;
+    position: absolute;
+    display: block;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+.input-section{
+    background-color: #155268;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 12px 5px rgb(45, 47, 48);
+}
+.input-section input{
+    border-radius: 5px;
+    border: 1px solid #abb8bc;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+ul{
+    padding: 0;
+    
+}
+ul li{
+    list-style: none;
+    text-align: left;
+    background-color: #155268;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 10px 5px rgb(49, 51, 52);
+    
+}
+.icon{
+    float: right;
+    cursor: pointer;
+}
+.editIcon{
+float: right;
+cursor: pointer;
+margin-left: 10px;
+}
